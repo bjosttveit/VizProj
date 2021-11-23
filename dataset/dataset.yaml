@@ -1,0 +1,7 @@
+path: ../dataset
+train: autosplit_train.txt
+val: autosplit_val.txt
+test: autosplit_test.txt
+
+nc: 8
+names: [ 'car', 'truck', 'bus', 'motorcycle', 'bicycle', 'scooter', 'person', 'rider' ]

@@ -1,0 +1,14 @@
+.vscode
+/yolov5
+.ipynb_checkpoints
+
+*.png
+*.txt
+*.avi
+*.data
+*.names
+*.out
+*.zip
+*.cache
+*.pt
+*.DS_Store
