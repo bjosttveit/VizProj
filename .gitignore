@@ -12,3 +12,7 @@
 *.cache
 *.pt
 *.DS_Store
+
+!dataset/train.txt
+!dataset/val.txt
+!dataset/test.txt
