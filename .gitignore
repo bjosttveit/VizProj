@@ -11,6 +11,7 @@
 *.zip
 *.cache
 *.pt
+*.mov
 *.DS_Store
 
 !dataset/train.txt
