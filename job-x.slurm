@@ -10,7 +10,7 @@
 #SBATCH --job-name="AV_YOLO"
 #SBATCH --output=av_yolo_x.out
 #SBATCH --mail-user=bjornar.osttveit@ntnu.no
-#SBATCH --mail-type=ALL
+#SBATCH --mail-type=NONE
 
 
 cd ${SLURM_SUBMIT_DIR}/yolov5
