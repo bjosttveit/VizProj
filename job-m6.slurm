@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=24
 #SBATCH --mem=16G
 #SBATCH --job-name="AV_YOLO"
-#SBATCH --output=av_yolo_x.out
+#SBATCH --output=av_yolo_m6.out
 #SBATCH --mail-user=bjornar.osttveit@ntnu.no
 #SBATCH --mail-type=NONE
 
@@ -21,5 +21,5 @@ module load Python/3.8.6-GCCcore-10.2.0
 pip3 install -r requirements.txt --user -q
 pip3 install wandb --user -q
 
-#python3 train.py --project TDT17 --name X --exist-ok --batch 5 --device 0 --epochs 1000 --data ../dataset/dataset.yaml --weights yolov5x.pt --img 1024
-python3 -m torch.distributed.launch --nproc_per_node=2 train.py --project TDT17 --name X --exist-ok --batch 10 --device 0,1 --workers 16 --epochs 1000 --data ../dataset/dataset.yaml --weights yolov5x.pt --img 1024
+#python3 train.py --project TDT17 --name M6 --exist-ok --batch 8 --device 0 --epochs 1000 --data ../dataset/dataset.yaml --weights yolov5m6.pt --img 1024
+python3 -m torch.distributed.launch --nproc_per_node=2 train.py --project TDT17 --name M6 --exist-ok --batch 16 --device 0,1 --workers 16 --epochs 1000 --data ../dataset/dataset.yaml --weights yolov5m6.pt --img 1024
