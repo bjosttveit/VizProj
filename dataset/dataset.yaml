@@ -5,3 +5,6 @@ test: test.txt
 
 nc: 8
 names: [ 'car', 'truck', 'bus', 'motorcycle', 'bicycle', 'scooter', 'person', 'rider' ]
+
+# Hyperparameters
+mixup: 0.5
