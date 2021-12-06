@@ -1,6 +1,8 @@
 # Autonomous vehicle object detection with YOLOv5 🚀
 Miniproject for TDT17 Fall 2021
 
+![bilde](https://user-images.githubusercontent.com/47412359/144878072-fba34594-e92b-4a54-b33e-73a00812431c.png)
+
 ## Prerequisites
 - Kaggle: `pip3 install kaggle` (follow official instructions for authentication)
 - Weights & biases: `pip3 install wandb` (follow official instructions for authentication)
@@ -15,7 +17,7 @@ Dataset can be found on kaggle: <https://www.kaggle.com/bjosttveit/tdt17avcombin
 Run `./data.sh` to download the training data from kaggle.
 
 ## Download the models
-Models can be found on weights and biases: <https://wandb.ai/bjosttveit/TDT17>
+Models can be found on weights and biases: <https://wandb.ai/bjosttveit/TDT17?workspace=user-bjosttveit>
 
 Run `python3 models.py` to download the custom models trained on the data.
 
