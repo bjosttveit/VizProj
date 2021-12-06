@@ -1,3 +1,4 @@
+YOLOv5: <https://github.com/ultralytics/yolov5>
 # Autonomous vehicle object detection with YOLOv5 🚀
 Miniproject for TDT17 Fall 2021
 
