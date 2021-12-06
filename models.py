@@ -4,16 +4,16 @@ import wandb
 api = wandb.Api()
 
 runs = [
-    {"artifact": "run_127f7oit_model:v0", "model": "n"},
-    {"artifact": "run_uz30yl46_model:v0", "model": "n6"},
-    {"artifact": "run_3b9by2ch_model:v0", "model": "s"},
-    {"artifact": "run_2d0l7aln_model:v0", "model": "s6"},
-    {"artifact": "run_2k6ao01f_model:v0", "model": "m"},
-    {"artifact": "run_31kwfi31_model:v0", "model": "m6"},
-    {"artifact": "run_1te89l0r_model:v0", "model": "l"},
-    {"artifact": "run_2f5f27sr_model:v0", "model": "l6"},
-    {"artifact": "run_co6roviu_model:v0", "model": "x"},
-    {"artifact": "run_j7xy9jp0_model:v0", "model": "x6"},
+    {"artifact": "run_2q343zly_model:v0", "model": "n"},
+    {"artifact": "run_1bv2ss4i_model:v0", "model": "n6"},
+    {"artifact": "run_1q5qb4h3_model:v0", "model": "s"},
+    {"artifact": "run_qmpgajz4_model:v0", "model": "s6"},
+    {"artifact": "run_1brla0sx_model:v0", "model": "m"},
+    {"artifact": "run_2pjojkr4_model:v0", "model": "m6"},
+    {"artifact": "run_1e8mqw56_model:v0", "model": "l"},
+    {"artifact": "run_38d0005f_model:v0", "model": "l6"},
+    {"artifact": "run_2x2i1j91_model:v0", "model": "x"},
+    {"artifact": "run_1nfbf38q_model:v0", "model": "x6"},
 ]
 
 if not os.path.exists('models'):
