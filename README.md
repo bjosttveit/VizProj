@@ -18,7 +18,7 @@ Dataset can be found on kaggle: <https://www.kaggle.com/bjosttveit/tdt17avcombin
 Run `./data.sh` to download the training data from kaggle.
 
 ## Download the models
-Models can be found on weights and biases: <https://wandb.ai/bjosttveit/TDT17?workspace=user-bjosttveit>
+Models can be found on weights and biases: <https://wandb.ai/bjosttveit/TDT17>
 
 Run `python3 models.py` to download the custom models trained on the data.
 
